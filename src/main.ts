@@ -13,7 +13,7 @@ async function bootstrap() {
     }),
   );
   const config = new DocumentBuilder()
-    .setTitle('StayBooker - Sistema de Reservas de Hotel')
+    .setTitle('Mauricio Grueso - API de Reservas de Hoteles')
     .setDescription('API REST completa para gestión de reservas hoteleras con WebSockets, Email y Notificaciones')
     .setVersion('1.0')
     .addBearerAuth()
