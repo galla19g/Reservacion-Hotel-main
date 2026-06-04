@@ -13,7 +13,7 @@ async function bootstrap() {
     }),
   );
   const config = new DocumentBuilder()
-    .setTitle('Jhonatan Muchavisoy')
+    .setTitle('Mauricio Grueso')
     .setDescription('Sistema de Reservas de Hotel')
     .setVersion('1.0')
     .addBearerAuth()
