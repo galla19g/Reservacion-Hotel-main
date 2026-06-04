@@ -23,13 +23,6 @@ JWT_SECRET=tu_clave_secreta_super_segura_cambiar_en_produccion
 JWT_EXPIRES_IN=1d
 ```
 
-## Email (Gmail o tu proveedor SMTP)
-```
-MAIL_HOST=smtp.gmail.com
-MAIL_USER=tu_email@gmail.com
-MAIL_PASSWORD=tu_contraseña_app_específica
-MAIL_FROM=noreply@tudominio.com
-```
 
 ---
 
