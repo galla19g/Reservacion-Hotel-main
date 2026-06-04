@@ -13,18 +13,18 @@ async function bootstrap() {
     }),
   );
   const config = new DocumentBuilder()
-    .setTitle('Mauricio Grueso')
-    .setDescription('Sistema de Reservas de Hotel')
+    .setTitle('StayBooker - Sistema de Reservas de Hotel')
+    .setDescription('API REST completa para gestión de reservas hoteleras con WebSockets, Email y Notificaciones')
     .setVersion('1.0')
     .addBearerAuth()
     .build();
   SwaggerModule.setup(
-    'api/docs',
+    '/',
     app,
     SwaggerModule.createDocument(app, config),
   );
   await app.listen(3000);
-  console.log('Servidor: http://localhost:3000');
-  console.log('Swagger:  http://localhost:3000/api/docs');
+  console.log('🚀 Servidor ejecutándose en http://localhost:3000');
+  console.log('📚 Swagger disponible en http://localhost:3000');
 }
 bootstrap();
