@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { width: 80%; margin: 20px auto; border: 1px solid #ddd; padding: 20px; border-radius: 10px; }
+        .header { text-align: center; border-bottom: 2px solid #2196F3; padding-bottom: 10px; }
+        .logo { font-size: 24px; font-weight: bold; color: #2196F3; }
+        .content { margin-top: 20px; }
+        .footer { margin-top: 20px; font-size: 12px; color: #777; text-align: center; }
+        .invoice { border-top: 1px dashed #ccc; margin-top: 20px; padding-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">StayBooker</div>
+            <h2>¡Gracias por tu estancia!</h2>
+        </div>
+        <div class="content">
+            <p>Hola <strong>{{nombre}}</strong>,</p>
+            <p>Esperamos que hayas disfrutado de tu tiempo en StayBooker. Tu estancia en la habitación <strong>{{habitacion}}</strong> ha finalizado.</p>
+            <div class="invoice">
+                <h3>Factura Digital</h3>
+                <p><strong>Reserva:</strong> #{{id}}</p>
+                <p><strong>Estado:</strong> Pagado</p>
+            </div>
+            <p>Adjunto a este correo (simulado) encontrarás tu factura detallada.</p>
+            <p>¡Esperamos verte de nuevo!</p>
+        </div>
+        <div class="footer">
+            &copy; 2026 StayBooker Hotel Management System. Todos los derechos reservados.
+        </div>
+    </div>
+</body>
+</html>

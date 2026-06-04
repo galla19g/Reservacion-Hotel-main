@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+node_modules/
+npm-debug.log
+.env
+.env.local
+.env.*.local
+dist/
+coverage/
+.git/
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose.yml
+.eslintrc.js
+.prettierrc
+README.md
+test/
+=======
+node_modules
+.git
+.gitignore
+Dockerfile
+test
+.env
+README.MD
+>>>>>>> 806b54227e739de9bff2369efbaf257cae00235b

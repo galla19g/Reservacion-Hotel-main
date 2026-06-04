@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+        .container { width: 80%; margin: 20px auto; border: 1px solid #ddd; padding: 20px; border-radius: 10px; }
+        .header { text-align: center; border-bottom: 2px solid #f44336; padding-bottom: 10px; }
+        .logo { font-size: 24px; font-weight: bold; color: #f44336; }
+        .content { margin-top: 20px; }
+        .footer { margin-top: 20px; font-size: 12px; color: #777; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">StayBooker</div>
+            <h2>Reserva Cancelada</h2>
+        </div>
+        <div class="content">
+            <p>Hola <strong>{{nombre}}</strong>,</p>
+            <p>Lamentamos informarte que tu reserva <strong>#{{id}}</strong> ha sido cancelada correctamente.</p>
+            <p>Si no realizaste esta acción o crees que es un error, por favor contáctanos lo antes posible.</p>
+            <p>Esperamos volver a verte pronto.</p>
+        </div>
+        <div class="footer">
+            &copy; 2026 StayBooker Hotel Management System. Todos los derechos reservados.
+        </div>
+    </div>
+</body>
+</html>
